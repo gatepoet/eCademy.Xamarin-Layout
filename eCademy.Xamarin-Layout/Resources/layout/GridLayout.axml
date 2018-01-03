@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2">
+        <ImageView
+            android:src="@drawable/monument"
+            android:id="@+id/imageView1"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:src="@drawable/darth_vlad"
+            android:id="@+id/imageView2"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:src="@drawable/web_designer"
+            android:id="@+id/imageView3"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:src="@drawable/national_gallery"
+            android:id="@+id/imageView4"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="centerCrop" />
+    </GridLayout>
+</LinearLayout>
